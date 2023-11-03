@@ -38,3 +38,20 @@ maj=phrase_inverse.upper()
 
 # Affichez la phrase inversée
 print(maj)
+
+#yon list san doublon
+lis_avek_doublon = [1, 2, 2, 3, 4, 4, 5, 5, 6, 6]
+
+lis_san_doublon = list(set(lis_avek_doublon))
+
+print(lis_san_doublon)
+
+# mw gen lis mw pral chwazi sa ki sanble yo
+lis1 = [1, 2, 3, 4, 5]
+lis2 = [3, 4, 5, 6, 7]
+lis_komen = [x for x in lis1 if x in lis2]
+
+print(lis_komen)
+
+
+
