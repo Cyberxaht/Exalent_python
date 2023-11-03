@@ -54,4 +54,14 @@ lis_komen = [x for x in lis1 if x in lis2]
 print(lis_komen)
 
 
+#eleman ki diteng 
+lis1 = [1, 2, 3, 4, 5]
+lis2 = [3, 4, 5, 6, 7]
+lis_disteng = [x for x in lis1 if x not in lis2] + [y for y in lis2 if y not in lis1]
+
+print(lis_disteng)
+
+
+
+
 
